@@ -243,9 +243,9 @@
         <address class="contact-details">
           <span>695 Park Ave, NY 10065, USA</span>
 
-          <span>info@devstudio.com</span>
+          <span class="email-adress">info@devstudio.com</span>
 
-          <span>+1 212-772-4150</span>
+          <span class="phone-adress">+1 212-772-4150</span>
         </address>
       </div>
       <div class="social-links-icon">
@@ -272,6 +272,25 @@
             </svg>
           </a>
         </div>
+      </div>
+      <div class="subscribe-form">
+        <form action="/procesare_formular" method="POST">
+          <label for="email">Subscribe to the newsletter</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="E-mail"
+            class="email-input"
+            required
+          />
+          <button type="submit">
+            <span>Subscribe</span
+            ><svg class="btn-subscribe-icon">
+              <use href="./icons/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
   </body>
