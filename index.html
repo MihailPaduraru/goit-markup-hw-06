@@ -365,6 +365,14 @@
             </a>
          </div>
       </div>
+      <div class="subscribe-form">
+        <form action="/procesare_formular" method="POST">
+        <label for="email">Subscribe to the newsletter</label>
+        <input type="email" id="email" name="email" placeholder="E-mail" required>
+        <button type="submit">Subscribe</button>
+        </form>
+
+      </div>
     </footer>
     <div class="modal is-hidden" data-modal>
       <div class="modal-content">
@@ -373,6 +381,49 @@
             <use href="./icons/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
           </svg>
          </button>
+         <form class="form">
+          <div class="form-title">
+            <span>Leave your information and we'll call you back</span>
+          </div>
+          <div class="form-modal">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" class="input-container">
+            <svg class="input-icon">
+                <use href="./icons/symbol-defs.svg#icon-name"></use>
+            </svg>
+          </div>
+          <div class="form-modal">
+            <label for="phone">Telephone</label>
+            <input type="tel" name="phone" id="phone" class="input-container">
+            <svg class="input-icon">
+                <use href="./icons/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <div class="form-modal">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" class="input-container">
+            <svg class="input-icon">
+                <use href="./icons/symbol-defs.svg#icon-mail"></use>
+            </svg>
+          </div>
+          <div class="form-modal coments ">
+            <label for="comentarii">Comments</label>
+            <textarea id="comentarii" name="comentarii" placeholder="Enter the text" class="input-container"></textarea>
+          </div>
+          
+            <label for="checkbox"  class="form-modal terms-conditions-checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" class="checkmark">
+              <svg class="checkbox">
+                <use href="./icons/symbol-defs.svg#icon-checkbox"></use>
+              </svg>
+              <svg class="checkbox-after">
+                <use href="./icons/symbol-defs.svg#icon-icon-check"></use>
+              </svg>
+              <span class="terms-info">I agree with the letter and accept the <a href=""><span class="terms-and-conditions">Terms and Conditions</span></a></span>
+            </label>
+            <button type="submit" class="submit-button">Send</button>
+         </form>
+
       </div>
     </div>
     <script src="./js/modal.js"></script>
