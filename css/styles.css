@@ -499,6 +499,7 @@ ul {
   height: 30px;
   margin-bottom: 200px;
   color: #ffffff;
+  border: none;
   border-radius: 4px 4px 4px 4px;
   padding: 10px 20px 10px 19px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -1170,22 +1171,12 @@ input[type="checkbox"]:checked ~ .checkbox {
   margin-right: 10px;
 }
 
-.navigation-contacts:hover .hover-icon,
-.navigation-contacts:focus .hover-icon {
+.navigation-contacts:hover .email,
+.navigation-contacts:focus .email {
   color: #2196f3;
 }
 
 .navigation-contacts:hover .navigation-contacts-icon,
 .navigation-contacts:focus .navigation-contacts-icon {
-  color: #2196f3;
-}
-
-.navigation-contacts:hover .hover-icon-2,
-.navigation-contacts:focus .hover-icon-2 {
-  color: #2196f3;
-}
-
-.navigation-contacts:hover .navigation-contacts-icon-2,
-.navigation-contacts:focus .navigation-contacts-icon-2 {
   color: #2196f3;
 }
